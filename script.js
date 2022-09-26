@@ -57,5 +57,5 @@ function result(e) {
         item.style.color = 'blue';
     }) 
     
-    document.querySelector('.par').textContent = 'Правильных ответов ' + score + ' из 15.'
+    document.querySelector('.par').textContent = 'Prawidłowe odpowiedzi ' + score + ' z 15.'
 }
