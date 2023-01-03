@@ -1,7 +1,5 @@
-import { questions } from './questions';
-
 export function Game({ question, onClickVariant, step }) {
-  const percentage = Math.round((step / questions.length) * 100);
+  const percentage = Math.round((step / 15) * 100);
 
   return (
     <>
